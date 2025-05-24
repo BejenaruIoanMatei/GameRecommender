@@ -6,6 +6,9 @@ __pycache__/
 # Dataset
 classifier-model/dataset/games.csv
 
+# todo
+todo.md
+
 # C extensions
 *.so
 
