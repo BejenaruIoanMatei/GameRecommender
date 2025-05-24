@@ -12,6 +12,9 @@ todo.md
 # C extensions
 *.so
 
+# pkl files
+*.pkl
+
 # Distribution / packaging
 .Python
 build/
