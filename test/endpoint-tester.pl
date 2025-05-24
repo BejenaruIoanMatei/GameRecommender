@@ -3,6 +3,7 @@ use strict;
 use warnings;
 use LWP::UserAgent;
 use JSON;
+use URI::Escape;
 
 sub test_endpoint {
     my ($method, $url, $data, $outfile) = @_;
@@ -29,15 +30,15 @@ sub test_endpoint {
         my $json_data = decode_json($content);
         my $pretty_json = to_json($json_data, { pretty => 1, utf8 => 1 });
 
-        open(my $fh, '>:encoding(UTF-8)', $outfile) or die "Nu pot deschide fișierul '$outfile' pentru scriere: $!";
+        open(my $fh, '>:encoding(UTF-8)', $outfile) or die "Cant open the file '$outfile' write: $!";
         print $fh $pretty_json;
         close($fh);
 
         print "Saved response to $outfile\n";
     };
     if ($@) {
-        warn "Nu am putut decoda JSON: $@\n";
-        open(my $fh, '>:encoding(UTF-8)', $outfile) or die "Nu pot deschide fișierul '$outfile' pentru scriere: $!";
+        warn "Failed decoding JSON: $@\n";
+        open(my $fh, '>:encoding(UTF-8)', $outfile) or die "Cant open the file '$outfile' write: $!";
         print $fh $content;
         close($fh);
 
@@ -47,5 +48,13 @@ sub test_endpoint {
     return $response->is_success;
 }
 
-test_endpoint('GET', 'http://127.0.0.1:8000/recommend/cosine?title=the%20crew%202', undef, 'test/response_cosine.json');
-test_endpoint('GET', 'http://127.0.0.1:8000/recommend/nn?title=the%20crew%202', undef, 'test/response_nn.json');
+
+my $title = 'phasmophobia';
+
+my $escaped_title = uri_escape($title);
+
+my $url_cosine = "http://127.0.0.1:8000/recommend/cosine?title=$escaped_title";
+my $url_nn = "http://127.0.0.1:8000/recommend/nn?title=$escaped_title";
+
+test_endpoint('GET', $url_cosine, undef, 'test/response_cosine.json');
+test_endpoint('GET', $url_nn, undef, 'test/response_nn.json');

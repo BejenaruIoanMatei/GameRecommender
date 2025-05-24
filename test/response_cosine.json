@@ -1,25 +1,25 @@
 {
-   "input" : "the crew 2",
+   "input" : "phasmophobia",
    "recommendations" : [
       {
-         "name" : "the wanted 3",
-         "image" : "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3347110/header.jpg?t=1734989589"
+         "image" : "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2619640/header.jpg?t=1720714772",
+         "name" : "evil hunt  evil never sleeps"
       },
       {
-         "image" : "https://cdn.akamai.steamstatic.com/steam/apps/1525760/header.jpg?t=1645009165",
-         "name" : "taxi driver  the simulation"
+         "image" : "https://cdn.akamai.steamstatic.com/steam/apps/2015650/header.jpg?t=1669330200",
+         "name" : "disembowel"
       },
       {
-         "name" : "street racing syndicate",
-         "image" : "https://cdn.akamai.steamstatic.com/steam/apps/292410/header.jpg?t=1530529947"
+         "name" : "the backrooms  nightmare dimension",
+         "image" : "https://cdn.akamai.steamstatic.com/steam/apps/2251870/header.jpg?t=1675093751"
       },
       {
-         "image" : "https://cdn.akamai.steamstatic.com/steam/apps/1551360/header.jpg?t=1658260306",
-         "name" : "forza horizon 5"
+         "name" : "scared tube",
+         "image" : "https://cdn.akamai.steamstatic.com/steam/apps/2007700/header.jpg?t=1668780482"
       },
       {
-         "name" : "crash drive 3",
-         "image" : "https://cdn.akamai.steamstatic.com/steam/apps/346820/header.jpg?t=1627370726"
+         "name" : "fantasma",
+         "image" : "https://cdn.akamai.steamstatic.com/steam/apps/1547090/header.jpg?t=1636918588"
       }
    ]
 }
