@@ -5,7 +5,7 @@ def build_nn_model(games_vector):
     nn_model.fit(games_vector)
     return nn_model
 
-def recommend_game_nn(title, data, games_vector, nn_model, n_recommendation=5):
+def recommend_game_nn(title, data, games_vector, nn_model, n_recommendation=6):
     title = title.lower().strip()
 
     if 'name_norm' not in data.columns:

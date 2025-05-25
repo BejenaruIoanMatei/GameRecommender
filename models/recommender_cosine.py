@@ -6,7 +6,7 @@ def jaccard_similarity(set1, set2):
     union = len(set1 | set2)
     return intersection / union if union != 0 else 0
 
-def recommend_game(title, data, games_vector, n_recommendation=5, alpha=0.3):
+def recommend_game(title, data, games_vector, n_recommendation=6, alpha=0.3):
     title = title.lower().strip()
 
     if 'name_norm' not in data.columns:
