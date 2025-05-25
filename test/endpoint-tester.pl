@@ -49,12 +49,14 @@ sub test_endpoint {
 }
 
 
-my $title = 'phasmophobia';
+my $title = 'Wartune Reborn';
 
 my $escaped_title = uri_escape($title);
 
 my $url_cosine = "http://127.0.0.1:8000/recommend/cosine?title=$escaped_title";
 my $url_nn = "http://127.0.0.1:8000/recommend/nn?title=$escaped_title";
+my $url_recommend = "http://127.0.0.1:8000/recommend/?title=$escaped_title";
 
 test_endpoint('GET', $url_cosine, undef, 'test/response_cosine.json');
 test_endpoint('GET', $url_nn, undef, 'test/response_nn.json');
+test_endpoint('GET', $url_recommend, undef, 'test/response_recommend.json');
