@@ -36,5 +36,11 @@ def recommend_nearest_neighbors(title: str = Query(..., description="Game title"
     return recommend_game_nn(title, data, games_vector, nn_model)
 
 @app.get("/recommend/")
-def recommend_nearest_neighbors(title: str = Query(..., description="Game title")):
-    return recommend_game_nn(title, data, games_vector, nn_model), recommend_game(title, data, games_vector)
+def recommend_both(title: str = Query(..., description="Game title")):
+    nn_result = recommend_game_nn(title, data, games_vector, nn_model)
+    cosine_result = recommend_game(title, data, games_vector)
+
+    return {
+        "nn": nn_result,
+        "cosine": cosine_result
+    }

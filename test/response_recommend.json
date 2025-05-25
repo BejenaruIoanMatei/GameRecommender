@@ -1,13 +1,14 @@
-[
-   {
+{
+   "nn" : {
+      "input" : "wartune reborn",
       "recommendations" : [
          {
-            "image" : "https://cdn.akamai.steamstatic.com/steam/apps/451230/header.jpg?t=1671528521",
-            "name" : "wartune"
+            "name" : "wartune",
+            "image" : "https://cdn.akamai.steamstatic.com/steam/apps/451230/header.jpg?t=1671528521"
          },
          {
-            "image" : "https://cdn.akamai.steamstatic.com/steam/apps/1461990/header.jpg?t=1605269221",
-            "name" : ""
+            "name" : "",
+            "image" : "https://cdn.akamai.steamstatic.com/steam/apps/1461990/header.jpg?t=1605269221"
          },
          {
             "image" : "https://cdn.akamai.steamstatic.com/steam/apps/1424890/header.jpg?t=1604026215",
@@ -21,15 +22,13 @@
             "image" : "https://cdn.akamai.steamstatic.com/steam/apps/1476330/header.jpg?t=1645688099",
             "name" : ""
          }
-      ],
-      "input" : "wartune reborn"
+      ]
    },
-   {
-      "input" : "wartune reborn",
+   "cosine" : {
       "recommendations" : [
          {
-            "name" : "",
-            "image" : "https://cdn.akamai.steamstatic.com/steam/apps/1878530/header.jpg?t=1644739886"
+            "image" : "https://cdn.akamai.steamstatic.com/steam/apps/1878530/header.jpg?t=1644739886",
+            "name" : ""
          },
          {
             "image" : "https://cdn.akamai.steamstatic.com/steam/apps/2651070/header.jpg?t=1712046891",
@@ -40,13 +39,14 @@
             "name" : "ufobia"
          },
          {
-            "name" : "conet",
-            "image" : "https://cdn.akamai.steamstatic.com/steam/apps/1442080/header.jpg?t=1630419119"
+            "image" : "https://cdn.akamai.steamstatic.com/steam/apps/1442080/header.jpg?t=1630419119",
+            "name" : "conet"
          },
          {
-            "name" : "shadow of fear",
-            "image" : "https://cdn.akamai.steamstatic.com/steam/apps/2644260/header.jpg?t=1701014446"
+            "image" : "https://cdn.akamai.steamstatic.com/steam/apps/2644260/header.jpg?t=1701014446",
+            "name" : "shadow of fear"
          }
-      ]
+      ],
+      "input" : "wartune reborn"
    }
-]
+}
