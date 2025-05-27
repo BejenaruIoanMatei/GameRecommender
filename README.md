@@ -20,4 +20,5 @@ The API returns a structured JSON response and handles errors gracefully when th
 - Useful for understanding the development flow and the reasoning behind the final API implementation.
 - Spring Boot-based frontend client: [Game Recommender Client](https://github.com/BejenaruIoanMatei/GameRecommenderClient)
 
-## Demo
+## Demo video:
+- Watch it here: [Game Recommender Demo](https://drive.google.com/file/d/1XH1G14-Z3GqHGhX--C6fikCtXOK6IWKm/view?usp=sharing)
