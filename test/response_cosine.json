@@ -1,25 +1,3 @@
 {
-   "input" : "battlefield 4",
-   "recommendations" : [
-      {
-         "name" : "star wars galactic battlegrounds saga",
-         "image" : "https://cdn.akamai.steamstatic.com/steam/apps/356500/header.jpg?t=1608334827"
-      },
-      {
-         "image" : "https://cdn.akamai.steamstatic.com/steam/apps/814660/header.jpg?t=1603299087",
-         "name" : "the unintended consequences of curiosity"
-      },
-      {
-         "name" : "the greater good",
-         "image" : "https://cdn.akamai.steamstatic.com/steam/apps/899960/header.jpg?t=1552464301"
-      },
-      {
-         "image" : "https://cdn.akamai.steamstatic.com/steam/apps/344840/header.jpg?t=1478026210",
-         "name" : "gratuitous space battles 2"
-      },
-      {
-         "name" : "root",
-         "image" : "https://cdn.akamai.steamstatic.com/steam/apps/393610/header.jpg?t=1586648765"
-      }
-   ]
+   "error" : "Game not found."
 }

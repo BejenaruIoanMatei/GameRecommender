@@ -1,52 +1,8 @@
 {
-   "cosine" : {
-      "input" : "battlefield 4",
-      "recommendations" : [
-         {
-            "name" : "star wars galactic battlegrounds saga",
-            "image" : "https://cdn.akamai.steamstatic.com/steam/apps/356500/header.jpg?t=1608334827"
-         },
-         {
-            "name" : "the unintended consequences of curiosity",
-            "image" : "https://cdn.akamai.steamstatic.com/steam/apps/814660/header.jpg?t=1603299087"
-         },
-         {
-            "name" : "the greater good",
-            "image" : "https://cdn.akamai.steamstatic.com/steam/apps/899960/header.jpg?t=1552464301"
-         },
-         {
-            "name" : "gratuitous space battles 2",
-            "image" : "https://cdn.akamai.steamstatic.com/steam/apps/344840/header.jpg?t=1478026210"
-         },
-         {
-            "name" : "root",
-            "image" : "https://cdn.akamai.steamstatic.com/steam/apps/393610/header.jpg?t=1586648765"
-         }
-      ]
-   },
    "nn" : {
-      "input" : "battlefield 4",
-      "recommendations" : [
-         {
-            "image" : "https://cdn.akamai.steamstatic.com/steam/apps/1238820/header.jpg?t=1614945737",
-            "name" : "battlefield 3"
-         },
-         {
-            "name" : "battlefield 1",
-            "image" : "https://cdn.akamai.steamstatic.com/steam/apps/1238840/header.jpg?t=1633006806"
-         },
-         {
-            "name" : "battlefield hardline",
-            "image" : "https://cdn.akamai.steamstatic.com/steam/apps/1238880/header.jpg?t=1615894937"
-         },
-         {
-            "name" : "battlefield 2042",
-            "image" : "https://cdn.akamai.steamstatic.com/steam/apps/1517290/header.jpg?t=1658753769"
-         },
-         {
-            "image" : "https://cdn.akamai.steamstatic.com/steam/apps/2283330/header.jpg?t=1714451507",
-            "name" : "military battlefield enlisted"
-         }
-      ]
+      "error" : "Game not found."
+   },
+   "cosine" : {
+      "error" : "Game not found."
    }
 }

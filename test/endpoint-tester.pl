@@ -49,7 +49,7 @@ sub test_endpoint {
 }
 
 
-my $title = 'battlefield 4';
+my $title = 'mario kart';
 
 my $escaped_title = uri_escape($title);
 
