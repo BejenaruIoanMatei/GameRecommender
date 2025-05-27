@@ -8,6 +8,8 @@ It supports two different recommendation algorithms: Nearest Neighbors and Cosin
 
 The API returns a structured JSON response and handles errors gracefully when the requested title is not found.
 
+Comes with: Spring Boot-based frontend client: [Game Recommender Client](https://github.com/BejenaruIoanMatei/GameRecommenderClient)
+
 ## Features
 
 - Fast and lightweight API built with FastAPI
