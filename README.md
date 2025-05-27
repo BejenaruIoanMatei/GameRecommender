@@ -18,4 +18,6 @@ The API returns a structured JSON response and handles errors gracefully when th
 ## Extras
 - Contains a Jupyter notebook showcasing the data analysis process on the Steam games dataset.
 - Useful for understanding the development flow and the reasoning behind the final API implementation.
+- Spring Boot-based frontend client: [Game Recommender Client](https://github.com/BejenaruIoanMatei/GameRecommenderClient)
 
+## Demo
