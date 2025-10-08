@@ -23,4 +23,4 @@ Comes with: Spring Boot-based frontend client: [Game Recommender Client](https:/
 - Spring Boot-based frontend client: [Game Recommender Client](https://github.com/BejenaruIoanMatei/GameRecommenderClient)
 
 ## Demo video:
-- Watch it here: [Game Recommender Demo](https://drive.google.com/file/d/1XH1G14-Z3GqHGhX--C6fikCtXOK6IWKm/view?usp=sharing)
+- Watch it here: [Game Recommender Demo](https://drive.google.com/file/d/1jvwo-_ilcqu_GGUpUPCf7o2Ma6GJd1AI/view?usp=sharing)
