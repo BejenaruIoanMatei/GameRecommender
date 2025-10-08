@@ -3,8 +3,13 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# DS_STORE
+
+*.DS_STORE
+
 # Dataset
 classifier-model/dataset/games.csv
+classifier-model/dataset/games.json
 
 # todo
 todo.md
