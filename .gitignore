@@ -5,7 +5,7 @@ __pycache__/
 
 # DS_STORE
 
-*.DS_STORE
+*.DS_Store
 
 # Dataset
 classifier-model/dataset/games.csv
@@ -181,6 +181,12 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
+# PyCharm / IntelliJ
+.idea/
+*.iml
+*.iws
+*.xml
+
 # PyPI configuration file
 .pypirc
 
@@ -188,4 +194,4 @@ cython_debug/
 /shelf/
 /workspace.xml
 # Editor-based HTTP Client requests
-/httpRequests/
+/httpRequests/classifier-model/selected_data.csv
