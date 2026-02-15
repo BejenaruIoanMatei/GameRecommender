@@ -194,4 +194,4 @@ cython_debug/
 /shelf/
 /workspace.xml
 # Editor-based HTTP Client requests
-/httpRequests/
+/httpRequests/classifier-model/selected_data.csv
