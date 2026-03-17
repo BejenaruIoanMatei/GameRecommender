@@ -44,3 +44,7 @@ def recommend_both(title: str = Query(..., description="Game title")):
         "nn": nn_result,
         "cosine": cosine_result
     }
+
+@app.get("/health")
+def health():
+    return {"status": "ok"}
